@@ -1,7 +1,7 @@
 do_token       = ""
 ssh_key_name   = "Jornada"
 region = "nyc1"
-droplet_image  = "ubuntu-18-04-x64"
+droplet_image  = "ubuntu-22-04-x64"
 droplet_name   = "jenkins"
 droplet_size   = "s-2vcpu-2gb"
 

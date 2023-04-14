@@ -61,7 +61,7 @@ output "jenkins_ip" {
 }
 
 # cria o arquivo kube_config local
-resource "local_file" "name" {
+resource "local_file" "kube_config" {
   content  = digitalocean_kubernetes_cluster.k8s.kube_config.0.raw_config
   filename = "kube_config.yaml"
 }
